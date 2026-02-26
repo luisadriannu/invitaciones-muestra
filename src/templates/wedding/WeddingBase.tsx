@@ -8,6 +8,7 @@ import {
   Utensils,
   PartyPopper,
   Music,
+  Church,
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import MusicButton from "@/components/MusicButton";
@@ -503,11 +504,9 @@ export default function WeddingBaseTemplate({ data }: Props) {
                   color: colors.primary,
                 }}
               >
-                <School />
+                <Church />
               </div>
-              <h4 className="text-xl font-serif font-bold mb-2">
-                Ceremonia Civil
-              </h4>
+              <h4 className="text-xl font-serif font-bold mb-2">Ceremonia</h4>
               <p className="text-gray-600 text-sm">
                 {data.ceremonyWedding}
                 <br />
@@ -553,7 +552,7 @@ export default function WeddingBaseTemplate({ data }: Props) {
                         className="text-sm"
                         style={{ color: colors.secondary }}
                       >
-                        7:00 p.m.
+                        5:00 p.m.
                       </p>
                       <h4 className="font-serif text-lg">Ceremonia Civil</h4>
                     </div>
@@ -573,7 +572,7 @@ export default function WeddingBaseTemplate({ data }: Props) {
                         className="text-sm"
                         style={{ color: colors.secondary }}
                       >
-                        8:00 p.m.
+                        9:00 p.m.
                       </p>
                       <h4 className="font-serif text-lg">Cena</h4>
                     </div>
@@ -593,7 +592,7 @@ export default function WeddingBaseTemplate({ data }: Props) {
                         className="text-sm"
                         style={{ color: colors.secondary }}
                       >
-                        9:00 p.m.
+                        10:00 p.m.
                       </p>
                       <h4 className="font-serif text-lg">Programa</h4>
                     </div>
@@ -613,7 +612,7 @@ export default function WeddingBaseTemplate({ data }: Props) {
                         className="text-sm"
                         style={{ color: colors.secondary }}
                       >
-                        10:00 p.m.
+                        11:00 p.m.
                       </p>
                       <h4 className="font-serif text-lg">
                         ¡Disfruten la fiesta!
@@ -635,7 +634,7 @@ export default function WeddingBaseTemplate({ data }: Props) {
                         className="text-sm"
                         style={{ color: colors.secondary }}
                       >
-                        1:00 a.m.
+                        12:00 a.m.
                       </p>
                       <h4 className="font-serif text-lg">
                         Felices para siempre

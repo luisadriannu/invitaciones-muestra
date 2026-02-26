@@ -7,6 +7,7 @@ import renata from "@/data/babyshower/renata";
 import valentina from "@/data/xv/valentina";
 import luis10 from "@/data/birthday/kids/luis-10";
 import sofia10 from "@/data/birthday/kids/sofia-10";
+import ernestoykarina from "@/data/weddings/ernesto-y-karina";
 
 const events: Record<string, EventData> = {
   "eduardo-32": eduardo32,
@@ -17,6 +18,7 @@ const events: Record<string, EventData> = {
   valentina,
   "luis-10": luis10,
   "sofia-10": sofia10,
+  "ernesto-y-karina": ernestoykarina,
 };
 
 export default events;
