@@ -3,6 +3,7 @@ import vestiment from "@/assets/pictures/vestimentCode/casual.png";
 import partyNeon from "@/assets/pictures/birthdayType/neon.png";
 import picture1 from "@/assets/pictures/birthdayPictures/cumple-luis.jpeg";
 import picture2 from "@/assets/pictures/birthdayPictures/cumple-luis-2.jpeg";
+import song from "@/assets/music/jurasic-park.mp3";
 
 const event: EventData = {
   tipo: "cumple",
@@ -19,7 +20,7 @@ const event: EventData = {
   vestimentCodeImg: vestiment,
   phone: "522206283499",
   suscription: "classic",
-  // music: song,
+  music: song,
   partyType: partyNeon,
 };
 

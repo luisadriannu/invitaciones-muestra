@@ -1,4 +1,5 @@
 import type { EventData } from "@/types/EventData";
+import song from "@/assets/music/canción-de-baby-shower.mp3";
 
 const event: EventData = {
   tipo: "babyshower",
@@ -18,7 +19,7 @@ const event: EventData = {
   ],
   vestimentCode: "Formal",
   phone: "522206283499",
-  // music: song,
+  music: song,
   suscription: "classic",
 };
 

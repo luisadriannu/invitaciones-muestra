@@ -4,6 +4,7 @@ import partyNeon from "@/assets/pictures/birthdayType/neon.png";
 import xv1 from "@/assets/pictures/XV-pictures/valentina/xv-1.jpeg";
 import xv2 from "@/assets/pictures/XV-pictures/valentina/xv-2.jpeg";
 import xv3 from "@/assets/pictures/XV-pictures/valentina/xv-3.jpeg";
+import song from "@/assets/music/twice.mp3";
 
 const event: EventData = {
   tipo: "xv",
@@ -21,7 +22,7 @@ const event: EventData = {
   vestimentCodeImg: neon,
   phone: "522206283499",
   suscription: "classic",
-  // music: song,
+  music: song,
   partyType: partyNeon,
 };
 

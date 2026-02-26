@@ -1,6 +1,7 @@
 import type { EventData } from "@/types/EventData";
 import casual from "@/assets/pictures/vestimentCode/casual.png";
 import retro from "@/assets//pictures/birthdayType/retro.png";
+import song from "@/assets/music/borro-cassete.mp3";
 
 const event: EventData = {
   tipo: "cumple",
@@ -22,7 +23,7 @@ const event: EventData = {
   vestimentCodeImg: casual,
   phone: "522206283499",
   suscription: "intermediary",
-  // music: song,
+  music: song,
   partyType: retro,
 };
 
