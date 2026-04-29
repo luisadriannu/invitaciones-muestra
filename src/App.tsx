@@ -2,6 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Invitation from "@/views/Invitation.tsx";
 import Home from "@/views/Home.tsx";
 import NotFound from "@/views/NotFound.tsx";
+import MothersDay from "@/views/MothersDay.tsx";
+import MothersDayV2 from "@/views/MothersDayV2.tsx";
+import MothersDayV3 from "@/views/MothersDayV3.tsx";
 import { useEffect, useState } from "react";
 import gifDesktop from "@/assets/pictures/no-desktop.gif";
 
@@ -45,6 +48,9 @@ function App() {
           }
         />
         <Route path="/" element={<Home />} />
+        <Route path="/mama" element={<MothersDay />} />
+        <Route path="/mama-v2" element={<MothersDayV2 />} />
+        <Route path="/mama-v3" element={<MothersDayV3 />} />
         <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

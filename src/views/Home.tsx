@@ -209,6 +209,16 @@ Quiero más información acerca de las invitaciones.`;
             >
               🎀 XV Años
             </a>
+
+            {/* Día de las Madres */}
+            <DropdownCategory
+              title="💐 Tarjetas para Mamá"
+              items={[
+                { name: "Diseño Oscuro", url: "/mama" },
+                { name: "Diseño Elegante", url: "/mama-v2" },
+                { name: "Diseño Minimalista", url: "/mama-v3" },
+              ]}
+            />
           </div>
         </div>
       </div>
